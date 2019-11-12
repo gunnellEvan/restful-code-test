@@ -46,3 +46,30 @@ Then, simply run the jar file
 ```bash
 java -jar/target/test-0.0.1-SNAPSHOT.jar
 ```
+
+## Using the Program
+Once the program is running, you will see the Spring Boot setup on the command line. If it does not state any errors, the program is up and running. 
+
+To navigate to the HAL Browser. Go to the URL **http://localhost:8080/browser/index.html#/** This will bring you to a page such as seen below.
+
+
+Once there you can add any Users or Organizations through the **NON-GET** button. Clicking that will bring up a window as seen below. 
+
+
+Once data is created, you can **GET** the data by entering the url such as **http://localhost:8080/users** (Either in the address bar or the Explorer bar provded)
+Or you can simply click on the Get button for the pertaining subject. Both of these will bring up the body of JSON data stored.
+
+
+To target one user or organization in particular, simply add their pertaining ID number to the URL. ie **http://localhost:8080/users/1**
+
+
+For deleting users, simply change your Action to **DELETE**, and specify the URL of the required User or Organization. This will remove the User or Organization entirely.
+
+
+
+Unfortunately, due to my lack of experience in this subject, there are not DTOs utilized. Any removal of Users from Organizations, or vice versa, also must be done manually by the user. This latter portion could be fixed with Simple functions to automate these tasks on various calls, but was not able to be implemented do to errors. For more thoughts from the author on what could be improved about their work, feel free to see the author notes!
+
+## Credits
+Author: Evan Gunnell
+
+A big thanks to both my recruiter and the staff for taking the time to interview me throughout this process!!
