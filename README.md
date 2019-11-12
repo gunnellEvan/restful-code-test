@@ -57,14 +57,14 @@ To navigate to the HAL Browser. Go to the URL **http://localhost:8080/browser/in
 Once there you can add any Users or Organizations through the **NON-GET** button, which defaults to **PUT**. Clicking that will bring up a window as seen below. 
 
 
-![Image of PUT window](images/HAL%20user%20creation&20window.png)
+![Image of PUT window](images/HAL%20user%20creation%20window.png)
 
 Once data is created, you can **GET** the data by entering the url such as **http://localhost:8080/users** (Either in the address bar or the Explorer bar provded)
 Or you can simply click on the Get button for the pertaining subject. Both of these will bring up the body of JSON data stored.
 
-![Image of HAL Browser](images/Users%20body%20of%20data.png)
+![Image of User Data](images/Users%20body%20of%20data.png)
 
-![Image of HAL Browser](images/Organizations%20body%20of%20data.png)
+![Image of Organization Data](images/Organizations%20body%20of%20data.png)
 
 To target one user or organization in particular, simply add their pertaining ID number to the URL. ie **http://localhost:8080/users/1**
 
