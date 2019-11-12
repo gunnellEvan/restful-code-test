@@ -52,6 +52,8 @@ Once the program is running, you will see the Spring Boot setup on the command l
 
 To navigate to the HAL Browser. Go to the URL **http://localhost:8080/browser/index.html#/** This will bring you to a page such as seen below.
 
+![Image of HAL Browser]
+(https://raw.githubusercontent.com/gunnellEvan/restful-code-test/master/images/HAL%20Browser%20Homepage.png)
 
 Once there you can add any Users or Organizations through the **NON-GET** button. Clicking that will bring up a window as seen below. 
 
