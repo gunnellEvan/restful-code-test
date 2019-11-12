@@ -1,7 +1,6 @@
-Working on the coding challenge was, overall, a beneficial experience.
-With so many different means of accomplishing the task, it really lends itself to practice in many different areas.
+## Starting out 
 
-First and foremost was the design and interpretation of the project. 
+First and foremost was the design and interpretation of the project, so as to grasp what was actually being asked
 I initially sketched out what it would look like in plain Java, not as a web appplication/RESTful API, without any use of Web Frameworks.
 The simple design is just to have 3-4 Classes:
   -A Main class to initiate the program.
@@ -16,3 +15,32 @@ The simple design is just to have 3-4 Classes:
   
   Aside from the fields requested, both User and Organization would have a hashmap of the opposing class, so as to form the
   proper connection of a user being a member and vice versa.
+
+
+## Choosing a Java Web Framework
+
+Since you can do the program in such a large variety of ways, this area was up to choice I believe. 
+I ultimately chose Spring since it is a Java Framework that is fairly popular and I have not worked with previously.
+
+## Goals
+
+Developing the program was simply a way to meet the same functionality as the basic version of the program, but to improve upon
+it when designing specifically for web. This means using Data Transfer Objects to assist calls, using the restful architectural style, etc.
+
+## Things that could have been improved in my program.
+
+Unfortunately, I was not able to get the entirety of the requested instructions completed. 
+If I were able to have cleared all errors in a timely manner, there are more elegant ways of doing things.
+Utilizing a relational database, through mySQL for example, could simplify the work of relating various objects. The HTTP Requests
+good then correspond to SQL queries to modify the data. This would most likely lead to more flexible code and allow for automation
+of functions that are currently done manually (such as removing someone from Organization by updating its data).
+Adding functions for the missing features is also an important step. Being able to easily search, update, or remove portions of data
+(such as uncoupling a User and Organization) is helpful.
+Utilizing DTOs and improving the MVC design could also elevate the program.
+
+
+## Final Thoughts
+
+Overall though, working on the coding challenge was a beneficial experience and is definitely something to keep working towards. 
+Spring Boot was interesting to play around with. 
+I will be continuing to learn as much as I can and improve my skills with these Java Web Frameworks.
