@@ -24,17 +24,17 @@ Secondly, make sure you have JDK 1.8 or greater installed as well as Apache Mave
 After downloading and installing, make sure to add the location of Maven's bin folder to your path environment variable. Also, make sure your environment variable JAVA_HOME points to the proper location of the JDK.
 This may look something like the following:
 
-'''
+```
 JAVA_HOME   C:\Program Files\Java\jdk1.8.0_221
 path         C:\Users\Dave\Desktop\apache-maven-3.6.2\bin
-'''
+```
 
 To check that both are setup correectly, you can check the versions of both in the command line via the following:
 
-'''bash
+```bash
 mvn -v
 java -version
-'''
+```
 
 This should display the version you just installed if they are setup correctly.
 
@@ -43,6 +43,6 @@ To run the program, first compile it through maven. You can run the application 
 Or, I would recommend creating a jar and running that. Creating the jar can be done with **mvn clean package**.
 Then, simply run the jar file
 
-'''bash
+```bash
 java -jar/target/test-0.0.1-SNAPSHOT.jar
-'''
+```
