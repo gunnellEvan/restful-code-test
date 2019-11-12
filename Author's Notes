@@ -1,0 +1,18 @@
+Working on the coding challenge was, overall, a beneficial experience.
+With so many different means of accomplishing the task, it really lends itself to practice in many different areas.
+
+First and foremost was the design and interpretation of the project. 
+I initially sketched out what it would look like in plain Java, not as a web appplication/RESTful API, without any use of Web Frameworks.
+The simple design is just to have 3-4 Classes:
+  -A Main class to initiate the program.
+  -An Application class to simulate the web requests
+      -This class would have a menu to prompt the user for what they wish to do, and 2 arrayLists or HashMaps to 
+      hold all Organizations and Users.
+      -This class would simply loop, asking the user for what the wish to do every time, exiting when stated so by the user.
+      It also has the accessory functions that will go through and search for Usersor Organizations, to remove a member from 
+      their map field.
+  -A User Class
+  -An Organization Class
+  
+  Aside from the fields requested, both User and Organization would have a hashmap of the opposing class, so as to form the
+  proper connection of a user being a member and vice versa.
