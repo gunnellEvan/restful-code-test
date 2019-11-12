@@ -52,17 +52,21 @@ Once the program is running, you will see the Spring Boot setup on the command l
 
 To navigate to the HAL Browser. Go to the URL **http://localhost:8080/browser/index.html#/** This will bring you to a page such as seen below.
 
-![Image of HAL Browser](images/HAL Browser Homepage.png)
+![Image of HAL Browser](images/HAL%20Browser%20Homepage.png)
 
-Once there you can add any Users or Organizations through the **NON-GET** button. Clicking that will bring up a window as seen below. 
+Once there you can add any Users or Organizations through the **NON-GET** button, which defaults to **PUT**. Clicking that will bring up a window as seen below. 
 
+
+![Image of PUT window](images/HAL%20user%20creation&20window.png)
 
 Once data is created, you can **GET** the data by entering the url such as **http://localhost:8080/users** (Either in the address bar or the Explorer bar provded)
 Or you can simply click on the Get button for the pertaining subject. Both of these will bring up the body of JSON data stored.
 
+![Image of HAL Browser](images/Users%20body%20of%20data.png)
+
+![Image of HAL Browser](images/Organizations%20body%20of%20data.png)
 
 To target one user or organization in particular, simply add their pertaining ID number to the URL. ie **http://localhost:8080/users/1**
-
 
 For deleting users, simply change your Action to **DELETE**, and specify the URL of the required User or Organization. This will remove the User or Organization entirely.
 
